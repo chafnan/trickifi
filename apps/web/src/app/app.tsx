@@ -1,12 +1,9 @@
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
-import styles from './app.module.scss';
-import NxWelcome from './nx-welcome';
-
 export function App() {
   return (
     <>
-      <NxWelcome title="web" />
-      <div />
+      <div className='bg-blue-900 h-screen w-screen flex justify-center items-center'>
+        <h1 className='text-9xl text-white'>Trickifi</h1>
+      </div>
     </>
   );
 }
