@@ -1,1 +1,5 @@
+*.json
 *.scss
+*.svg
+*.md
+.babelrc

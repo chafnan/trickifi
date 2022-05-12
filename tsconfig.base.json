@@ -14,7 +14,10 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@flourish/component": ["libs/flourish/component/src/index.ts"],
+      "@flourish/icon": ["libs/flourish/icon/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }

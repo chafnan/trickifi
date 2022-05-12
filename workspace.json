@@ -1,6 +1,9 @@
 {
   "version": 2,
   "projects": {
+    "flourish-component": "libs/flourish/component",
+    "flourish-component-e2e": "apps/flourish-component-e2e",
+    "flourish-icon": "libs/flourish/icon",
     "web": "apps/web",
     "web-e2e": "apps/web-e2e"
   }
