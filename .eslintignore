@@ -1,5 +1,7 @@
 *.json
 *.scss
+*.css
 *.svg
 *.md
 .babelrc
+*.mdx

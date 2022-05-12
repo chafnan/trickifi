@@ -1,0 +1,34 @@
+{
+  "$schema": "../../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/flourish/tailwind/src",
+  "projectType": "library",
+  "targets": {
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["libs/flourish/tailwind/**/*.js"]
+      }
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/flourish/tailwind"],
+      "options": {
+        "jestConfig": "libs/flourish/tailwind/jest.config.js",
+        "passWithNoTests": true
+      }
+    },
+    "build": {
+      "executor": "@nrwl/js:tsc",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/libs/flourish/tailwind",
+        "tsConfig": "libs/flourish/tailwind/tsconfig.lib.json",
+        "packageJson": "libs/flourish/tailwind/package.json",
+        "main": "libs/flourish/tailwind/src/index.js",
+        "assets": ["libs/flourish/tailwind/*.md"]
+      }
+    }
+  },
+  "tags": []
+}

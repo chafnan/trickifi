@@ -4,6 +4,7 @@
     "flourish-component": "libs/flourish/component",
     "flourish-component-e2e": "apps/flourish-component-e2e",
     "flourish-icon": "libs/flourish/icon",
+    "flourish-tailwind": "libs/flourish/tailwind",
     "web": "apps/web",
     "web-e2e": "apps/web-e2e"
   }

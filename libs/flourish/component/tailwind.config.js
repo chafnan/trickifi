@@ -4,12 +4,9 @@ const { createGlobPatternsForDependencies } = require('@nrwl/react/tailwind')
 module.exports = {
   presets: [require('../../../tailwind-workspace-preset')],
   content: [
-    join(__dirname, 'src/**/*!(*.stories|*.spec).{ts,tsx,html}'),
+    join(__dirname, 'src/**/*!(*.spec).{mdx,ts,tsx,html}'),
     ...createGlobPatternsForDependencies(__dirname),
+    join(__dirname, '../tailwind/src/**/*.{mdx,js}'),
   ],
-  theme: {
-    fontFamily: {},
-    extend: {},
-  },
   plugins: [],
 }
