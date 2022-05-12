@@ -1,0 +1,12 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+# Succeed on all merge messages, as evidenced by MERGE_MSG existing
+[ -f $GIT_DIR/MERGE_MSG ] && exit 0
+
+# Skip is message is given
+COMMIT_MSG_FILE=$1
+MESSAGE=`cat $COMMIT_MSG_FILE | sed '/^#/d'`
+[ -z "$MESSAGE" ] || exit 0
+
+exec < /dev/tty && yarn cz --hook || true

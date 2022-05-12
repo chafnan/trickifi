@@ -1,0 +1,8 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+export TEST_THREAD_COUNT=`node -e "console.log(require('os').cpus().length - 2)"`
+
+yarn lint-staged
+yarn nx affected:test --base HEAD^ --maxWorkers 1 --parallel --maxParallel $TEST_THREAD_COUNT
+

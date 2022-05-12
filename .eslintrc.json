@@ -1,7 +1,14 @@
 {
   "root": true,
   "ignorePatterns": ["**/*"],
-  "plugins": ["@nrwl/nx"],
+  "plugins": ["@nrwl/nx", "prettier", "import"],
+  "extends": [
+    "prettier",
+    "plugin:prettier/recommended",
+    "plugin:import/errors",
+    "plugin:import/warnings",
+    "plugin:import/typescript"
+  ],
   "overrides": [
     {
       "files": ["*.ts", "*.tsx", "*.js", "*.jsx"],
@@ -18,6 +25,21 @@
               }
             ]
           }
+        ],
+        "import/order": [
+          "error",
+          {
+            "pathGroups": [
+              {
+                "pattern": "@trickifi/**",
+                "group": "external",
+                "position": "after"
+              }
+            ],
+            "alphabetize": {
+              "order": "asc"
+            }
+          }
         ]
       }
     },
@@ -31,5 +53,20 @@
       "extends": ["plugin:@nrwl/nx/javascript"],
       "rules": {}
     }
-  ]
+  ],
+  "settings": {
+    "import/parsers": {
+      "@typescript-eslint/parser": [".ts", ".tsx"]
+    },
+    "import/resolver": {
+      "node": {
+        "extensions": [".js", ".ts"],
+        "paths": ["src"]
+      },
+      "typescript": {
+        "alwaysTryTypes": true,
+        "project": ["tsconfig*.json"]
+      }
+    }
+  }
 }

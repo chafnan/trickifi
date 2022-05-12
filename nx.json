@@ -30,6 +30,28 @@
     ]
   },
   "generators": {
+    "@nrwl/nest": {
+      "class": {
+        "directory": "lib"
+      },
+      "controller": {
+        "directory": "lib"
+      },
+      "library": {
+        "publishable": true
+      },
+      "service": {
+        "directory": "lib"
+      },
+      "provider": {
+        "directory": "lib"
+      }
+    },
+    "@nrwl/node": {
+      "library": {
+        "publishable": true
+      }
+    },
     "@nrwl/react": {
       "application": {
         "style": "scss",
@@ -41,7 +63,24 @@
       },
       "library": {
         "style": "scss",
+        "linter": "eslint",
+        "publishable": true
+      }
+    },
+    "@nrwl/next": {
+      "application": {
+        "style": "scss",
         "linter": "eslint"
+      },
+      "component": {
+        "style": "none"
+      },
+      "library": {
+        "style": "scss",
+        "publishable": true
+      },
+      "page": {
+        "style": "none"
       }
     }
   },

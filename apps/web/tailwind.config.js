@@ -11,7 +11,5 @@ module.exports = {
     fontFamily: {},
     extend: {},
   },
-  plugins: [
-
-  ],
+  plugins: [],
 }
