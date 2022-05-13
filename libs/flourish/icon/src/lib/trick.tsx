@@ -1,11 +1,25 @@
-export { ReactComponent as ACTrickIcon } from '../assets/trick/Icon=AC.svg'
-export { ReactComponent as AceTrickIcon } from '../assets/trick/Icon=Ace.svg'
-export { ReactComponent as ADTrickIcon } from '../assets/trick/Icon=AD.svg'
-export { ReactComponent as AHTrickIcon } from '../assets/trick/Icon=AH.svg'
-export { ReactComponent as ASTrickIcon } from '../assets/trick/Icon=AS.svg'
-export { ReactComponent as ClubsTrickIcon } from '../assets/trick/Icon=Clubs.svg'
-export { ReactComponent as DiamondsTrickIcon } from '../assets/trick/Icon=Diamonds.svg'
-export { ReactComponent as FireTrickIcon } from '../assets/trick/Icon=Fire.svg'
-export { ReactComponent as HeartsTrickIcon } from '../assets/trick/Icon=Hearts.svg'
-export { ReactComponent as SpadesTrickIcon } from '../assets/trick/Icon=Spades.svg'
-export { ReactComponent as WandTrickIcon } from '../assets/trick/Icon=Wand.svg'
+import { ReactComponent as AC } from '../assets/trick/Icon=AC.svg'
+import { ReactComponent as AD } from '../assets/trick/Icon=AD.svg'
+import { ReactComponent as AH } from '../assets/trick/Icon=AH.svg'
+import { ReactComponent as AS } from '../assets/trick/Icon=AS.svg'
+import { ReactComponent as Ace } from '../assets/trick/Icon=Ace.svg'
+import { ReactComponent as Clubs } from '../assets/trick/Icon=Clubs.svg'
+import { ReactComponent as Diamonds } from '../assets/trick/Icon=Diamonds.svg'
+import { ReactComponent as Fire } from '../assets/trick/Icon=Fire.svg'
+import { ReactComponent as Hearts } from '../assets/trick/Icon=Hearts.svg'
+import { ReactComponent as Spades } from '../assets/trick/Icon=Spades.svg'
+import { ReactComponent as Wand } from '../assets/trick/Icon=Wand.svg'
+
+export const TrickIcon = {
+  AC,
+  Ace,
+  AD,
+  AH,
+  AS,
+  Clubs,
+  Diamonds,
+  Fire,
+  Hearts,
+  Spades,
+  Wand,
+}

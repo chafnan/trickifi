@@ -1,80 +1,163 @@
-export { ReactComponent as AddCoreIcon } from '../assets/core/Icon=Add.svg'
-export { ReactComponent as AddVideoCoreIcon } from '../assets/core/Icon=AddVideo.svg'
-export { ReactComponent as AlertCoreIcon } from '../assets/core/Icon=Alert.svg'
-export { ReactComponent as AnalyticsCoreIcon } from '../assets/core/Icon=Analytics.svg'
-export { ReactComponent as CalendarCoreIcon } from '../assets/core/Icon=Calendar.svg'
-export { ReactComponent as CardViewCoreIcon } from '../assets/core/Icon=CardView.svg'
-export { ReactComponent as CartEmptyCoreIcon } from '../assets/core/Icon=CartEmpty.svg'
-export { ReactComponent as CartFullCoreIcon } from '../assets/core/Icon=CartFull.svg'
-export { ReactComponent as CheckBigCoreIcon } from '../assets/core/Icon=Check-Big.svg'
-export { ReactComponent as CheckLittleCoreIcon } from '../assets/core/Icon=Check-Little.svg'
-export { ReactComponent as ChevronCoreIcon } from '../assets/core/Icon=Chevron.svg'
-export { ReactComponent as CollectionCoreIcon } from '../assets/core/Icon=Collection.svg'
-export { ReactComponent as ConnectionCoreIcon } from '../assets/core/Icon=Connection.svg'
-export { ReactComponent as DeselectCoreIcon } from '../assets/core/Icon=Deselect.svg'
-export { ReactComponent as DifficultyCoreIcon } from '../assets/core/Icon=Difficulty.svg'
-export { ReactComponent as DoorClosedCoreIcon } from '../assets/core/Icon=DoorClosed.svg'
-export { ReactComponent as DoorOpenCoreIcon } from '../assets/core/Icon=DoorOpen.svg'
-export { ReactComponent as DuplicateCoreIcon } from '../assets/core/Icon=Duplicate.svg'
-export { ReactComponent as EditCoreIcon } from '../assets/core/Icon=Edit.svg'
-export { ReactComponent as EyeClosedCoreIcon } from '../assets/core/Icon=EyeClosed.svg'
-export { ReactComponent as EyeOpenCoreIcon } from '../assets/core/Icon=EyeOpen.svg'
-export { ReactComponent as FeedCoreIcon } from '../assets/core/Icon=Feed.svg'
-export { ReactComponent as FileCoreIcon } from '../assets/core/Icon=File.svg'
-export { ReactComponent as GrabHandleCoreIcon } from '../assets/core/Icon=GrabHandle.svg'
-export { ReactComponent as HeartCoreIcon } from '../assets/core/Icon=Heart.svg'
-export { ReactComponent as HomeCoreIcon } from '../assets/core/Icon=Home.svg'
-export { ReactComponent as InboxBadgeCoreIcon } from '../assets/core/Icon=Inbox+Badge.svg'
-export { ReactComponent as InboxBadgeDarkCoreIcon } from '../assets/core/Icon=Inbox+Badge Dark.svg'
-export { ReactComponent as InboxCoreIcon } from '../assets/core/Icon=Inbox.svg'
-export { ReactComponent as InfoCoreIcon } from '../assets/core/Icon=Info.svg'
-export { ReactComponent as InstantDownloadCoreIcon } from '../assets/core/Icon=Instant Download.svg'
-export { ReactComponent as JPGCoreIcon } from '../assets/core/Icon=JPG.svg'
-export { ReactComponent as JustForMeCoreIcon } from '../assets/core/Icon=Just for Me.svg'
-export { ReactComponent as LectureCoreIcon } from '../assets/core/Icon=Lecture.svg'
-export { ReactComponent as LikeCoreIcon } from '../assets/core/Icon=Like.svg'
-export { ReactComponent as ListViewCoreIcon } from '../assets/core/Icon=ListView.svg'
-export { ReactComponent as LockedCoreIcon } from '../assets/core/Icon=Locked.svg'
-export { ReactComponent as MagicHatCoreIcon } from '../assets/core/Icon=MagicHat.svg'
-export { ReactComponent as MagicWandCoreIcon } from '../assets/core/Icon=MagicWand.svg'
-export { ReactComponent as MenuHamburgerCoreIcon } from '../assets/core/Icon=MenuHamburger.svg'
-export { ReactComponent as MenuSkewerCoreIcon } from '../assets/core/Icon=MenuSkewer.svg'
-export { ReactComponent as MessageCoreIcon } from '../assets/core/Icon=Message.svg'
-export { ReactComponent as MinusCoreIcon } from '../assets/core/Icon=Minus.svg'
-export { ReactComponent as MoneyCoreIcon } from '../assets/core/Icon=Money.svg'
-export { ReactComponent as MoneySlashCoreIcon } from '../assets/core/Icon=MoneySlash.svg'
-export { ReactComponent as MyTrickifiShopCoreIcon } from '../assets/core/Icon=My Trickifi Shop.svg'
-export { ReactComponent as NotificationBadgeCoreIcon } from '../assets/core/Icon=Notification+Badge.svg'
-export { ReactComponent as NotificationCoreIcon } from '../assets/core/Icon=Notification.svg'
-export { ReactComponent as OrdersCoreIcon } from '../assets/core/Icon=Orders.svg'
-export { ReactComponent as PackageCoreIcon } from '../assets/core/Icon=Package.svg'
-export { ReactComponent as PersonPlusCoreIcon } from '../assets/core/Icon=Person+.svg'
-export { ReactComponent as PersonCoreIcon } from '../assets/core/Icon=Person.svg'
-export { ReactComponent as PlayCoreIcon } from '../assets/core/Icon=Play.svg'
-export { ReactComponent as PlusCoreIcon } from '../assets/core/Icon=Plus.svg'
-export { ReactComponent as RepertoireCoreIcon } from '../assets/core/Icon=Repertoire.svg'
-export { ReactComponent as RoutineBuilderCoreIcon } from '../assets/core/Icon=RoutineBuilder.svg'
-export { ReactComponent as SearchCoreIcon } from '../assets/core/Icon=Search.svg'
-export { ReactComponent as SelectCoreIcon } from '../assets/core/Icon=Select.svg'
-export { ReactComponent as SettingsCoreIcon } from '../assets/core/Icon=Settings.svg'
-export { ReactComponent as ShareCoreIcon } from '../assets/core/Icon=Share.svg'
-export { ReactComponent as ShieldCoreIcon } from '../assets/core/Icon=Shield.svg'
-export { ReactComponent as SortCoreIcon } from '../assets/core/Icon=Sort.svg'
-export { ReactComponent as SortArrowCoreIcon } from '../assets/core/Icon=SortArrow.svg'
-export { ReactComponent as StageCoreIcon } from '../assets/core/Icon=Stage.svg'
-export { ReactComponent as StarCoreIcon } from '../assets/core/Icon=Star.svg'
-export { ReactComponent as StarOutlineCoreIcon } from '../assets/core/Icon=StarOutline.svg'
-export { ReactComponent as SubtractCoreIcon } from '../assets/core/Icon=Subtract.svg'
-export { ReactComponent as TrashcanCoreIcon } from '../assets/core/Icon=Trashcan.svg'
-export { ReactComponent as TrickCoreIcon } from '../assets/core/Icon=Trick.svg'
-export { ReactComponent as TrickifiCoreIcon } from '../assets/core/Icon=Trickifi.svg'
-export { ReactComponent as TrickifiShopCoreIcon } from '../assets/core/Icon=Trickifi Shop.svg'
-export { ReactComponent as TrickifiShopXCoreIcon } from '../assets/core/Icon=Trickifi Shop X.svg'
-export { ReactComponent as TrophyPoundCoreIcon } from '../assets/core/Icon=Trophy#.svg'
-export { ReactComponent as TrophyCoreIcon } from '../assets/core/Icon=Trophy.svg'
-export { ReactComponent as Trophy_CoreIcon } from '../assets/core/Icon=Trophy_.svg'
-export { ReactComponent as VideoCoreIcon } from '../assets/core/Icon=Video.svg'
-export { ReactComponent as VideoSlashCoreIcon } from '../assets/core/Icon=VideoSlash.svg'
-export { ReactComponent as WebsiteCoreIcon } from '../assets/core/Icon=Website.svg'
-export { ReactComponent as XBigCoreIcon } from '../assets/core/Icon=X-Big.svg'
-export { ReactComponent as LittleCoreIcon } from '../assets/core/Icon=X-Little.svg'
+import { ReactComponent as Add } from '../assets/core/Icon=Add.svg'
+import { ReactComponent as AddVideo } from '../assets/core/Icon=AddVideo.svg'
+import { ReactComponent as Alert } from '../assets/core/Icon=Alert.svg'
+import { ReactComponent as Analytics } from '../assets/core/Icon=Analytics.svg'
+import { ReactComponent as Calendar } from '../assets/core/Icon=Calendar.svg'
+import { ReactComponent as CardView } from '../assets/core/Icon=CardView.svg'
+import { ReactComponent as CartEmpty } from '../assets/core/Icon=CartEmpty.svg'
+import { ReactComponent as CartFull } from '../assets/core/Icon=CartFull.svg'
+import { ReactComponent as CheckBig } from '../assets/core/Icon=Check-Big.svg'
+import { ReactComponent as CheckLittle } from '../assets/core/Icon=Check-Little.svg'
+import { ReactComponent as Chevron } from '../assets/core/Icon=Chevron.svg'
+import { ReactComponent as Collection } from '../assets/core/Icon=Collection.svg'
+import { ReactComponent as Connection } from '../assets/core/Icon=Connection.svg'
+import { ReactComponent as Deselect } from '../assets/core/Icon=Deselect.svg'
+import { ReactComponent as Difficulty } from '../assets/core/Icon=Difficulty.svg'
+import { ReactComponent as DoorClosed } from '../assets/core/Icon=DoorClosed.svg'
+import { ReactComponent as DoorOpen } from '../assets/core/Icon=DoorOpen.svg'
+import { ReactComponent as Duplicate } from '../assets/core/Icon=Duplicate.svg'
+import { ReactComponent as Edit } from '../assets/core/Icon=Edit.svg'
+import { ReactComponent as EyeClosed } from '../assets/core/Icon=EyeClosed.svg'
+import { ReactComponent as EyeOpen } from '../assets/core/Icon=EyeOpen.svg'
+import { ReactComponent as Feed } from '../assets/core/Icon=Feed.svg'
+import { ReactComponent as File } from '../assets/core/Icon=File.svg'
+import { ReactComponent as GrabHandle } from '../assets/core/Icon=GrabHandle.svg'
+import { ReactComponent as Heart } from '../assets/core/Icon=Heart.svg'
+import { ReactComponent as Home } from '../assets/core/Icon=Home.svg'
+import { ReactComponent as InboxBadgeDark } from '../assets/core/Icon=Inbox+Badge Dark.svg'
+import { ReactComponent as InboxBadge } from '../assets/core/Icon=Inbox+Badge.svg'
+import { ReactComponent as Inbox } from '../assets/core/Icon=Inbox.svg'
+import { ReactComponent as Info } from '../assets/core/Icon=Info.svg'
+import { ReactComponent as InstantDownload } from '../assets/core/Icon=Instant Download.svg'
+import { ReactComponent as JPG } from '../assets/core/Icon=JPG.svg'
+import { ReactComponent as JustForMe } from '../assets/core/Icon=Just for Me.svg'
+import { ReactComponent as Lecture } from '../assets/core/Icon=Lecture.svg'
+import { ReactComponent as Like } from '../assets/core/Icon=Like.svg'
+import { ReactComponent as ListView } from '../assets/core/Icon=ListView.svg'
+import { ReactComponent as Locked } from '../assets/core/Icon=Locked.svg'
+import { ReactComponent as MagicHat } from '../assets/core/Icon=MagicHat.svg'
+import { ReactComponent as MagicWand } from '../assets/core/Icon=MagicWand.svg'
+import { ReactComponent as MenuHamburger } from '../assets/core/Icon=MenuHamburger.svg'
+import { ReactComponent as MenuSkewer } from '../assets/core/Icon=MenuSkewer.svg'
+import { ReactComponent as Message } from '../assets/core/Icon=Message.svg'
+import { ReactComponent as Minus } from '../assets/core/Icon=Minus.svg'
+import { ReactComponent as Money } from '../assets/core/Icon=Money.svg'
+import { ReactComponent as MoneySlash } from '../assets/core/Icon=MoneySlash.svg'
+import { ReactComponent as MyTrickifiShop } from '../assets/core/Icon=My Trickifi Shop.svg'
+import { ReactComponent as NotificationBadge } from '../assets/core/Icon=Notification+Badge.svg'
+import { ReactComponent as Notification } from '../assets/core/Icon=Notification.svg'
+import { ReactComponent as Orders } from '../assets/core/Icon=Orders.svg'
+import { ReactComponent as Package } from '../assets/core/Icon=Package.svg'
+import { ReactComponent as PersonPlus } from '../assets/core/Icon=Person+.svg'
+import { ReactComponent as Person } from '../assets/core/Icon=Person.svg'
+import { ReactComponent as Play } from '../assets/core/Icon=Play.svg'
+import { ReactComponent as Plus } from '../assets/core/Icon=Plus.svg'
+import { ReactComponent as Repertoire } from '../assets/core/Icon=Repertoire.svg'
+import { ReactComponent as RoutineBuilder } from '../assets/core/Icon=RoutineBuilder.svg'
+import { ReactComponent as Search } from '../assets/core/Icon=Search.svg'
+import { ReactComponent as Select } from '../assets/core/Icon=Select.svg'
+import { ReactComponent as Settings } from '../assets/core/Icon=Settings.svg'
+import { ReactComponent as Share } from '../assets/core/Icon=Share.svg'
+import { ReactComponent as Shield } from '../assets/core/Icon=Shield.svg'
+import { ReactComponent as Sort } from '../assets/core/Icon=Sort.svg'
+import { ReactComponent as SortArrow } from '../assets/core/Icon=SortArrow.svg'
+import { ReactComponent as Stage } from '../assets/core/Icon=Stage.svg'
+import { ReactComponent as Star } from '../assets/core/Icon=Star.svg'
+import { ReactComponent as StarOutline } from '../assets/core/Icon=StarOutline.svg'
+import { ReactComponent as Subtract } from '../assets/core/Icon=Subtract.svg'
+import { ReactComponent as Trashcan } from '../assets/core/Icon=Trashcan.svg'
+import { ReactComponent as Trick } from '../assets/core/Icon=Trick.svg'
+import { ReactComponent as TrickifiShopX } from '../assets/core/Icon=Trickifi Shop X.svg'
+import { ReactComponent as TrickifiShop } from '../assets/core/Icon=Trickifi Shop.svg'
+import { ReactComponent as Trickifi } from '../assets/core/Icon=Trickifi.svg'
+import { ReactComponent as TrophyPound } from '../assets/core/Icon=Trophy#.svg'
+import { ReactComponent as Trophy } from '../assets/core/Icon=Trophy.svg'
+import { ReactComponent as Trophy_ } from '../assets/core/Icon=Trophy_.svg'
+import { ReactComponent as Video } from '../assets/core/Icon=Video.svg'
+import { ReactComponent as VideoSlash } from '../assets/core/Icon=VideoSlash.svg'
+import { ReactComponent as Website } from '../assets/core/Icon=Website.svg'
+import { ReactComponent as XBig } from '../assets/core/Icon=X-Big.svg'
+import { ReactComponent as Little } from '../assets/core/Icon=X-Little.svg'
+
+export const CoreIcon = {
+  Add,
+  AddVideo,
+  Alert,
+  Analytics,
+  Calendar,
+  CardView,
+  CartEmpty,
+  CartFull,
+  CheckBig,
+  CheckLittle,
+  Chevron,
+  Collection,
+  Connection,
+  Deselect,
+  Difficulty,
+  DoorClosed,
+  DoorOpen,
+  Duplicate,
+  Edit,
+  EyeClosed,
+  EyeOpen,
+  Feed,
+  File,
+  GrabHandle,
+  Heart,
+  Home,
+  InboxBadge,
+  InboxBadgeDark,
+  Inbox,
+  Info,
+  InstantDownload,
+  JPG,
+  JustForMe,
+  Lecture,
+  Like,
+  ListView,
+  Locked,
+  MagicHat,
+  MagicWand,
+  MenuHamburger,
+  MenuSkewer,
+  Message,
+  Minus,
+  Money,
+  MoneySlash,
+  MyTrickifiShop,
+  NotificationBadge,
+  Notification,
+  Orders,
+  Package,
+  PersonPlus,
+  Person,
+  Play,
+  Plus,
+  Repertoire,
+  RoutineBuilder,
+  Search,
+  Select,
+  Settings,
+  Share,
+  Shield,
+  Sort,
+  SortArrow,
+  Stage,
+  Star,
+  StarOutline,
+  Subtract,
+  Trashcan,
+  Trick,
+  Trickifi,
+  TrickifiShop,
+  TrickifiShopX,
+  TrophyPound,
+  Trophy,
+  Trophy_,
+  Video,
+  VideoSlash,
+  Website,
+  XBig,
+  Little,
+}

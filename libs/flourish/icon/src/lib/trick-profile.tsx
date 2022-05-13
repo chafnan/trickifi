@@ -1,34 +1,71 @@
-export { ReactComponent as BombTrickProfileIcon } from '../assets/trick-profile/Icon=Bomb.svg'
-export { ReactComponent as BookTrickProfileIcon } from '../assets/trick-profile/Icon=Book.svg'
-export { ReactComponent as ClockTrickProfileIcon } from '../assets/trick-profile/Icon=Clock.svg'
-export { ReactComponent as ComputerTrickProfileIcon } from '../assets/trick-profile/Icon=Computer Play.svg'
-export { ReactComponent as CostTrickProfileIcon } from '../assets/trick-profile/Icon=Cost.svg'
-export { ReactComponent as DifficultyTrickProfileIcon } from '../assets/trick-profile/Icon=Difficulty.svg'
-export { ReactComponent as DoorClosedTrickProfileIcon } from '../assets/trick-profile/Icon=DoorClosed.svg'
-export { ReactComponent as DoorOpenTrickProfileIcon } from '../assets/trick-profile/Icon=DoorOpen.svg'
-export { ReactComponent as ExternalTrickProfileIcon } from '../assets/trick-profile/Icon=External Link.svg'
-export { ReactComponent as EyesTrickProfileIcon } from '../assets/trick-profile/Icon=Eyes.svg'
-export { ReactComponent as FileTrickProfileIcon } from '../assets/trick-profile/Icon=File.svg'
-export { ReactComponent as GroupPeopleTrickProfileIcon } from '../assets/trick-profile/Icon=GroupPeople.svg'
-export { ReactComponent as HangerTrickProfileIcon } from '../assets/trick-profile/Icon=Hanger.svg'
-export { ReactComponent as ImportTrickProfileIcon } from '../assets/trick-profile/Icon=Import.svg'
-export { ReactComponent as InspectTrickProfileIcon } from '../assets/trick-profile/Icon=Inspect.svg'
-export { ReactComponent as InventoryTrickProfileIcon } from '../assets/trick-profile/Icon=Inventory.svg'
-export { ReactComponent as LightTrickProfileIcon } from '../assets/trick-profile/Icon=Light.svg'
-export { ReactComponent as LinkTrickProfileIcon } from '../assets/trick-profile/Icon=Link.svg'
-export { ReactComponent as ListTrickProfileIcon } from '../assets/trick-profile/Icon=List.svg'
-export { ReactComponent as MagicHatTrickProfileIcon } from '../assets/trick-profile/Icon=MagicHat.svg'
-export { ReactComponent as MagicWandTrickProfileIcon } from '../assets/trick-profile/Icon=MagicWand.svg'
-export { ReactComponent as NoteTrickProfileIcon } from '../assets/trick-profile/Icon=Note.svg'
-export { ReactComponent as PackageTrickProfileIcon } from '../assets/trick-profile/Icon=Package.svg'
-export { ReactComponent as PlaneTrickProfileIcon } from '../assets/trick-profile/Icon=Plane.svg'
-export { ReactComponent as RepeatTrickProfileIcon } from '../assets/trick-profile/Icon=Repeat.svg'
-export { ReactComponent as ResetTrickProfileIcon } from '../assets/trick-profile/Icon=Reset.svg'
-export { ReactComponent as ShareTrickProfileIcon } from '../assets/trick-profile/Icon=Share.svg'
-export { ReactComponent as ShippingCostsTrickProfileIcon } from '../assets/trick-profile/Icon=Shipping Costs.svg'
-export { ReactComponent as SoundWaveTrickProfileIcon } from '../assets/trick-profile/Icon=SoundWave.svg'
-export { ReactComponent as SpaceTrickProfileIcon } from '../assets/trick-profile/Icon=Space.svg'
-export { ReactComponent as SuitecaseTrickProfileIcon } from '../assets/trick-profile/Icon=Suitecase.svg'
-export { ReactComponent as TagTrickProfileIcon } from '../assets/trick-profile/Icon=Tag.svg'
-export { ReactComponent as TrashTrickProfileIcon } from '../assets/trick-profile/Icon=Trash.svg'
-export { ReactComponent as UnlockedTrickProfileIcon } from '../assets/trick-profile/Icon=Unlocked.svg'
+import { ReactComponent as Bomb } from '../assets/trick-profile/Icon=Bomb.svg'
+import { ReactComponent as Book } from '../assets/trick-profile/Icon=Book.svg'
+import { ReactComponent as Clock } from '../assets/trick-profile/Icon=Clock.svg'
+import { ReactComponent as Computer } from '../assets/trick-profile/Icon=Computer Play.svg'
+import { ReactComponent as Cost } from '../assets/trick-profile/Icon=Cost.svg'
+import { ReactComponent as Difficulty } from '../assets/trick-profile/Icon=Difficulty.svg'
+import { ReactComponent as DoorClosed } from '../assets/trick-profile/Icon=DoorClosed.svg'
+import { ReactComponent as DoorOpen } from '../assets/trick-profile/Icon=DoorOpen.svg'
+import { ReactComponent as External } from '../assets/trick-profile/Icon=External Link.svg'
+import { ReactComponent as Eyes } from '../assets/trick-profile/Icon=Eyes.svg'
+import { ReactComponent as File } from '../assets/trick-profile/Icon=File.svg'
+import { ReactComponent as GroupPeople } from '../assets/trick-profile/Icon=GroupPeople.svg'
+import { ReactComponent as Hanger } from '../assets/trick-profile/Icon=Hanger.svg'
+import { ReactComponent as Import } from '../assets/trick-profile/Icon=Import.svg'
+import { ReactComponent as Inspect } from '../assets/trick-profile/Icon=Inspect.svg'
+import { ReactComponent as Inventory } from '../assets/trick-profile/Icon=Inventory.svg'
+import { ReactComponent as Light } from '../assets/trick-profile/Icon=Light.svg'
+import { ReactComponent as Link } from '../assets/trick-profile/Icon=Link.svg'
+import { ReactComponent as List } from '../assets/trick-profile/Icon=List.svg'
+import { ReactComponent as MagicHat } from '../assets/trick-profile/Icon=MagicHat.svg'
+import { ReactComponent as MagicWand } from '../assets/trick-profile/Icon=MagicWand.svg'
+import { ReactComponent as Note } from '../assets/trick-profile/Icon=Note.svg'
+import { ReactComponent as Package } from '../assets/trick-profile/Icon=Package.svg'
+import { ReactComponent as Plane } from '../assets/trick-profile/Icon=Plane.svg'
+import { ReactComponent as Repeat } from '../assets/trick-profile/Icon=Repeat.svg'
+import { ReactComponent as Reset } from '../assets/trick-profile/Icon=Reset.svg'
+import { ReactComponent as Share } from '../assets/trick-profile/Icon=Share.svg'
+import { ReactComponent as ShippingCosts } from '../assets/trick-profile/Icon=Shipping Costs.svg'
+import { ReactComponent as SoundWave } from '../assets/trick-profile/Icon=SoundWave.svg'
+import { ReactComponent as Space } from '../assets/trick-profile/Icon=Space.svg'
+import { ReactComponent as Suitecase } from '../assets/trick-profile/Icon=Suitecase.svg'
+import { ReactComponent as Tag } from '../assets/trick-profile/Icon=Tag.svg'
+import { ReactComponent as Trash } from '../assets/trick-profile/Icon=Trash.svg'
+import { ReactComponent as Unlocked } from '../assets/trick-profile/Icon=Unlocked.svg'
+
+export const TrickProfileIcon = {
+  Bomb,
+  Book,
+  Clock,
+  Computer,
+  Cost,
+  Difficulty,
+  DoorClosed,
+  DoorOpen,
+  External,
+  Eyes,
+  File,
+  GroupPeople,
+  Hanger,
+  Import,
+  Inspect,
+  Inventory,
+  Light,
+  Link,
+  List,
+  MagicHat,
+  MagicWand,
+  Note,
+  Package,
+  Plane,
+  Repeat,
+  Reset,
+  Share,
+  ShippingCosts,
+  SoundWave,
+  Space,
+  Suitecase,
+  Tag,
+  Trash,
+  Unlocked,
+}

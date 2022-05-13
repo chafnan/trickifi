@@ -13,12 +13,12 @@ module.exports = {
     },
   },
   fontSize: {
-    11: '11px',
-    12: '12px',
+    xs: '11px',
+    sm: '12px',
     base: '14px',
-    14: '14px',
-    16: '16px',
-    24: '24px',
-    32: '32px',
+    md: '14px',
+    lg: '16px',
+    xl: '24px',
+    '2xl': '32px',
   },
 }
