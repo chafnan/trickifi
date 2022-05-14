@@ -1,5 +1,6 @@
 module.exports = {
   spacing: {
+    4: '4px',
     8: '8px',
     16: '16px',
     24: '24px',
@@ -7,5 +8,8 @@ module.exports = {
     40: '40px',
     56: '56px',
     64: '64px',
+    72: '72px',
+    80: '80px',
+    112: '112px',
   },
 }
